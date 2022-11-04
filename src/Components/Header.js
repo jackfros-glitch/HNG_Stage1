@@ -12,7 +12,7 @@ function Header() {
         <p id='twitter'>Annete Black</p>
         <p id='slack' hidden>Slack username</p>
     </div>}
-    {location.pathname === '/contact' && <h1>Contact Me</h1>}
+    {location.pathname === '/contact' && <h1 style={{padding:'10px', paddingBottom:'0px', fontSize:'36px', fontWeight:'600', color:'#101828'}}>Contact Me</h1>}
     </>
     
   )

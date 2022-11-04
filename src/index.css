@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Inter' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,7 +25,67 @@ code {
   padding:15px; 
   margin:auto;
 }
+.rounded{
+  border-radius: 5px;
+}
+textarea{
+  resize: none;
+}
+.flex{
+  display: flex;
+}
 
+.flex-row{
+  flex-direction: row;
+}
+.flex-col{
+  flex-direction: column;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.input-text, .input-email, .input-textarea, .input-submit{
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.box{
+  min-width:40rem;
+}
+
+.input-submit{
+  padding:8px;
+  background-color:#1570EF;
+  border:1px;
+  color:#fff;
+}
+
+.input-text:focus, .input-textarea:focus, .input-email:focus{
+  outline: none;
+  border:1px solid lightblue;
+  box-shadow: 0 0 10px lightblue;
+}
+
+.form{
+  padding: 10px;
+  padding-top: 0;
+  color:#344054;
+}
+.label{
+  padding:5px;
+  display: block;
+}
+
+.w-full{
+  width:100%
+}
+.w-50{
+  width: 50%;
+}
 @media only screen and (max-width:650px){
   .footer{
     margin-top: 40px;
