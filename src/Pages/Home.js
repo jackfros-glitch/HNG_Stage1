@@ -14,6 +14,7 @@ function Home() {
             <Button title='Python Books' link='https://books.zuri.team/' id='book__python'/>
             <Button title='Background Check for Coders' link='https://background.zuri.team/' id='pitch'/>
             <Button title='Design Books' link='https://books.zuri.team/design-rules' id='book__design'/>
+            <Button title='Contact Me' link='/contact' id='contact'/>
             <Footer/>
         
     </div>
