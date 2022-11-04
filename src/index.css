@@ -20,6 +20,11 @@ code {
   padding:5px;
 }
 
+.container{
+  max-width:960px; 
+  padding:15px; 
+  margin:auto;
+}
 
 @media only screen and (max-width:650px){
   .footer{
