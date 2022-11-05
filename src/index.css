@@ -20,10 +20,11 @@ code {
   padding:5px;
 }
 
-.container{
+.contact-container{
   max-width:960px; 
   padding:15px; 
   margin:auto;
+  padding-inline:48px;
 }
 .rounded{
   border-radius: 5px;
@@ -54,7 +55,7 @@ textarea{
 }
 
 .box{
-  min-width:40rem;
+  /* min-width:40rem; */
 }
 
 .input-submit{
@@ -70,7 +71,13 @@ textarea{
   box-shadow: 0 0 10px lightblue;
 }
 
+.name-input{
+  display:flex;
+  margin-bottom:15px;
+}
+
 .form{
+  box-sizing: border-box;
   padding: 10px;
   padding-top: 0;
   color:#344054;
@@ -86,6 +93,16 @@ textarea{
 .w-50{
   width: 50%;
 }
+
+.lastname{
+  flex-grow:1;
+  margin-left : 7px;
+}
+
+.firstname{
+  flex-grow:1;
+  margin-right : 7px;
+}
 @media only screen and (max-width:650px){
   .footer{
     margin-top: 40px;
@@ -94,11 +111,26 @@ textarea{
   .footer p{
     margin-top: 30px;
   }
+  .contact-container{
+    padding-inline: 0px;
+  }
   .social_icons{ 
     display: block;
     text-align:center; 
     width:100%;
     margin-top:3rem;
   }
-  
+  .name-input{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:15px;
+  }
+  .lastname{
+    flex-grow:1;
+    margin-left : 0px;
+  }
+  .firstname{
+    flex-grow:1;
+    margin-right : 0px;
+  }
 }

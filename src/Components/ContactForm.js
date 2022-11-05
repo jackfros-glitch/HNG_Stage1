@@ -2,11 +2,11 @@
 
 function ContactForm() {
   return (
-    <div className=""><form action="" style={{maxWidth:'50rem'}} className="form" >
+    <div className=""><form action="" style={{width:'100%'}} className="form" >
     <p style={{color:'#475467'}}>Hi there, contact me to ask me about anything you have in mind</p>
-    <div style={{display:'flex', marginBottom:'15px'}}>
-        <div style={{flexGrow:1, marginRight:'7px'}}><label className="label"  htmlFor="firstname">First name</label><input type="text" className="input-text rounded " id="first_name" placeholder="Enter your first name" /></div>
-        <div style={{flexGrow:1, marginLeft:'7px'}}><label  htmlFor="lastname" className="label">Last name</label><input type="text" id="last_name" className="input-text rounded" placeholder="Enter your last name"/></div>
+    <div style={{display:'flex', marginBottom:'15px'}} className='name-input'>
+        <div className="firstname" ><label className="label"  htmlFor="firstname">First name</label><input type="text" className="input-text rounded " id="first_name" placeholder="Enter your first name" /></div>
+        <div className="lastname" ><label  htmlFor="lastname" className="label">Last name</label><input type="text" id="last_name" className="input-text rounded" placeholder="Enter your last name"/></div>
     </div> 
     <div style={{marginBottom:'15px'}}>
         <div style={{flexGrow:1}}><label className="label"  htmlFor="email">Email</label><input className="input-email rounded" type="email" id="email" placeholder="yourname@email.com" /></div>

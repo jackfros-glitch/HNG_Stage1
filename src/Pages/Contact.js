@@ -4,13 +4,19 @@ import Footer from "../Components/Footer"
 
 function Contact() {
   return (
-    <div className="container flex flex-col center" style={{paddingInline:'48px'}}>
-      <div className="box">
-        <Header/>
-        <ContactForm/>
-        <Footer/>
+    <div style={{maxWidth:'960px', padding:'15px', margin:'auto'}}>
+      
+      <div className="contact-container flex flex-col center" >
+        <div className="box">
+          <Header/>
+          <ContactForm/>
+      
+        </div>
+        
       </div>
+      <Footer/>
     </div>
+    
   )
 }
 
