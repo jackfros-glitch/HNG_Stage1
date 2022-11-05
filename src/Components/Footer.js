@@ -11,7 +11,7 @@ function Footer() {
   
   return (
     <div className=''>
-        {location.pathname === '/' && <div className='social_icons' hidden>
+        {location.pathname === '/' && <div className='social_icons'>
             <img src={slack} alt="slack icon" style={{marginRight:'20px'}}/>
             <img src={github} alt="github icon" />
         </div>}

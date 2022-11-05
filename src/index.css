@@ -65,6 +65,13 @@ textarea{
   color:#fff;
 }
 
+.social_icons{ 
+  display: block;
+  text-align:center; 
+  width:100%;
+  margin-top:3rem;
+}
+
 .input-text:focus, .input-textarea:focus, .input-email:focus{
   outline: none;
   border:1px solid lightblue;
@@ -114,12 +121,7 @@ textarea{
   .contact-container{
     padding-inline: 0px;
   }
-  .social_icons{ 
-    display: block;
-    text-align:center; 
-    width:100%;
-    margin-top:3rem;
-  }
+  
   .name-input{
     display:flex;
     flex-direction: column;
