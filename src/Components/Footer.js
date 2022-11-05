@@ -10,7 +10,7 @@ function Footer() {
   const location = useLocation()
   
   return (
-    <div className=''>
+    <footer className=''>
         {location.pathname === '/' && <div className='social_icons'>
             <img src={slack} alt="slack icon" style={{marginRight:'20px'}}/>
             <img src={github} alt="github icon" />
@@ -21,7 +21,7 @@ function Footer() {
             <p style={{textSize:'16px', fontWeight:400, opacity:0.5}}>HNG Internship 9 Frontend Task</p>
             <p><img src={i4g} alt="Ingressive for good logo" /></p>
         </div>
-    </div>
+    </footer>
   )
 }
 
