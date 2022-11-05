@@ -3,14 +3,18 @@ import i4g from '../images/I4G.png'
 import zuri from '../images/Zuri.png'
 import slack from '../images/slack.png'
 import github from '../images/github.png'
+import { useLocation } from 'react-router-dom'
 
 function Footer() {
+
+  const location = useLocation()
+  
   return (
     <div className=''>
-        <div className='social_icons' hidden>
+        {location.pathname === '/' && <div className='social_icons' hidden>
             <img src={slack} alt="slack icon" style={{marginRight:'20px'}}/>
             <img src={github} alt="github icon" />
-        </div>
+        </div>}
 
         <div className='footer'>
             <p><img src={zuri} alt="Zuri internship logo"/></p>

@@ -1,5 +1,6 @@
 import Header from "../Components/Header"
 import ContactForm from "../Components/ContactForm"
+import Footer from "../Components/Footer"
 
 function Contact() {
   return (
@@ -7,6 +8,7 @@ function Contact() {
       <div className="box">
         <Header/>
         <ContactForm/>
+        <Footer/>
       </div>
     </div>
   )
